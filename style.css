@@ -1,0 +1,226 @@
+/* Global */
+
+@import url('https://fonts.googleapis.com/css2?family=RocknRoll+One&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #111D5E;
+    color: #fff; 
+    font-family: 'RocknRoll One', sans-serif;
+
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+ul{
+    padding: 0;
+    margin: 0;
+}
+
+
+
+/* Navbar */
+
+.main-nav{
+    background-color: rgba(	243, 113, 33, 0.9);
+    padding: 1.5rem;
+    position: fixed;
+    width: 100%;
+}
+
+.main-nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.main-nav li{
+    margin-left: 7.5rem;
+}
+
+
+
+.main-nav a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #ccc;
+}
+
+
+.main-nav a:hover{
+    border-bottom: 5px solid #ff4d4d;
+    transition: 0.1s;
+}
+
+/*Showcase */
+
+/* I can position text in the showcase class and don't need a div to do it */
+
+#home {
+    width: 100%;
+    height: 100vh;
+    background: url(images/showcase.jpg) center center/cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+#home h1{
+    text-align: center;
+    margin-top: 8rem;
+    font-size: 6rem;
+    text-transform: uppercase;
+    max-width: 800px;
+    font-style: italic;
+    color: #fff;
+    margin-bottom: 1rem;
+}
+
+#home p{
+    font-size: 2.5rem;
+    margin-top: 1rem;
+    max-width: 900px;
+    line-height: 3.5rem;
+    text-transform: capitalize;
+}
+
+
+/* About */
+
+#about{
+    background: #C70039;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 4rem;
+    text-align: center;
+    line-height: 2.5rem;
+    font-size: 2rem;
+}
+
+#about h2{
+    margin-bottom: 3rem;
+    text-transform: uppercase;
+    font-style: italic;
+}
+
+#about p{
+    line-height: 3.5rem;
+}
+
+
+/* Images */
+
+.items{
+    display: grid;
+    grid-template-columns: 29% 29% 29%;
+    grid-gap: 1.4rem;
+}
+
+#images img{
+    display: flex;
+    justify-content: center;
+    width: 430px;
+    margin-left: 85px;
+
+}
+
+#images img:hover{
+    transform: scale(1.1);
+    transition: 0.7s;
+    cursor: pointer;
+}
+
+#images h2{
+    display: flex;
+    justify-content: center;
+    font-size: 4rem;
+    padding: 2rem;
+    text-transform: uppercase;
+    font-style: italic;
+}
+
+.item_1, .item_2, .item_3{
+    margin-bottom: 2.5rem;
+}
+
+
+/* contact */
+
+form{
+    background: #C70039;
+    padding: 2rem;
+
+}
+
+#contact{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 2.5rem;
+
+}
+
+#contact h3{
+    text-align: center;
+    font-size: 4rem;
+    text-transform: uppercase;
+    margin-bottom: 0.4rem;
+    font-style: italic;
+}
+
+#contact input, label, textarea, button {
+    margin-top: 0.9rem;
+    border-radius: 0.4rem;
+    text-transform: uppercase;
+    
+}
+
+#contact input{
+    padding: 1.2rem;
+}
+
+#contact label{
+    font-size: 1.5rem;
+}
+
+
+#contact textarea {
+    padding-left: 10px;
+    padding-top: 10px;
+    font-size: 1.2rem;
+}
+
+button {
+    background: #111D5E;;
+    color: #fff;
+    padding: 1.2rem;
+    font-size: 1.2rem;
+}
+
+button:hover {
+    background: blue;
+    cursor: pointer;
+}
+
+/*light green doesn't work good for main content/* 
+
+
+/* Footer */
+
+footer{
+    padding: 1.9rem;
+    background: #F37121;
+    text-align: center;
+}

@@ -1,0 +1,22 @@
+colors 
+
+-#111D5E dark black blue
+-#C70039 red color 
+-#F37121 orange 
+-#C0E218 yellow 
+
+
+about red
+navbar orange 
+text white 
+whole background blue 
+
+17 images 
+
+order 
+-navbar
+-showcase
+-about
+-images (16)
+-contact form
+-footer
